@@ -1,7 +1,6 @@
 class quicksort {
     static void QUICKSORT(int A[], int p, int r) {
         if (p < r) {
-            // System.out.println("HI");
             int q = PARTITION(A, p, r);
             QUICKSORT(A, p, q - 1);
             QUICKSORT(A, q + 1, r);
@@ -10,7 +9,6 @@ class quicksort {
 
     static int PARTITION(int A[], int p, int r) {
         int x = A[r];
-        // System.out.println(x);
         int i = p - 1;
         for (int j = p; j < r; j++) {
             if (A[j] <= x) {
