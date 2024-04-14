@@ -18,7 +18,6 @@
 .container1 {
     background-color: black;
     min-height: 100vh;
-    /* min-width: auto; */
     display: flex;
     align-items: center;
     justify-content: center;

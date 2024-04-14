@@ -38,3 +38,10 @@
     cursor: pointer;
     border: 5px solid red;
 }
+.fullScreen{
+    position: absolute;
+    background-color: red;
+    /* border: 40px solid black; */
+    height: 100%;
+    width: 100%;
+}
