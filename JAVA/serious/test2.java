@@ -21,7 +21,7 @@ class base {
         System.out.println("I am a derived class constructor with a value");
     }
 }
-class test3 extends derived {
+class test2 extends derived {
     public static void main(String[] args) {
         // checking();
          derived myObj = new derived();
